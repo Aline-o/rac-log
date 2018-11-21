@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="bgOpcoes">
+    </Component>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace pref="485" max="32767" attributes="0"/>
+              <Component id="jbOkResp" min="-2" pref="55" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jbSalvar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jbDesistir" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Component id="jScrollPane1" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jrbOpcaoE" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jrbOpcaoC" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jrbOpcaoB" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jrbOpcaoA" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jrbOpcaoD" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="400" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jrbOpcaoA" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jrbOpcaoB" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jrbOpcaoC" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jrbOpcaoD" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jrbOpcaoE" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jbOkResp" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jbSalvar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jbDesistir" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="A energia solar vai abastecer parte da demanda de &#xa;energia do campus de uma universidade brasileira.&#xa;A instala&#xe7;&#xe3;o de pain&#xe9;is solares na &#xe1;rea dos estacionamentos e &#xa;na cobertura do hospital pedi&#xe1;trico ser&#xe1; aproveitada nas &#xa;instala&#xe7;&#xf5;es universit&#xe1;rias e tamb&#xe9;m ligada na rede da &#xa;companhia el&#xe9;trica distribuidora de energia. &#xa;O projeto inclui 100 m2 de pain&#xe9;is solares que ficar&#xe3;o &#xa;instalados nos estacionamentos, produzindo energia &#xa;el&#xe9;trica e proporcionando sombra para os carros. &#xa;Sobre o hospital pedi&#xe1;trico ser&#xe3;o colocados &#xa;aproximadamente 300 m2 de pain&#xe9;is, sendo 100 m2 para gerar energia &#xa;el&#xe9;trica utilizada no campus, e 200 m2 para gera&#xe7;&#xe3;o de energia &#xa;t&#xe9;rmica, produzindo aquecimento de &#xe1;gua utilizada nas caldeiras &#xa;do hospital. Suponha que cada metro quadrado de painel solar &#xa;para energia el&#xe9;trica gere uma economia de 1 kWh por dia e cada &#xa;metro quadrado produzindo energia t&#xe9;rmica permita &#xa;economizar 0,7 kWh por dia para a universidade. &#xa;Em uma segunda fase do projeto, ser&#xe1; aumentada em 75% a &#xe1;rea&#xa;coberta pelos pain&#xe9;is solares que geram energia el&#xe9;trica. &#xa;Nessa fase tamb&#xe9;m dever&#xe1; ser ampliada a &#xe1;rea de cobertura com &#xa;pain&#xe9;is para gera&#xe7;&#xe3;o de energia t&#xe9;rmica.&#xa;Para se obter o dobro da quantidade de energia economizada &#xa;diariamente em rela&#xe7;&#xe3;o &#xe0; primeira fase, &#xa;a &#xe1;rea total dos pain&#xe9;is que geram energia &#xa;t&#xe9;rmica em metro quadrado, dever&#xe1; ter o valor mais pr&#xf3;ximo de"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JRadioButton" name="jrbOpcaoA">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="bgOpcoes"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="a) 231."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jrbOpcaoAActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jrbOpcaoB">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="bgOpcoes"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="b) 431."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jrbOpcaoBActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jrbOpcaoC">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="bgOpcoes"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="c) 433."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jrbOpcaoCActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jrbOpcaoD">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="bgOpcoes"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="d) 472."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jrbOpcaoDActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jrbOpcaoE">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="bgOpcoes"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="e) 672."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jrbOpcaoEActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbOkResp">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="OK"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbOkRespActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbSalvar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salvar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbDesistir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Desistir"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
